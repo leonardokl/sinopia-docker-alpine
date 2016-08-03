@@ -3,7 +3,7 @@ Minimal Sinopia built on Alpine Linux
 
 ## Creating a volume to storage
 ```
-docker run -v /path/to/storage:/opt/sinopia/storage -d -p 4873:4873 leonardokl/sinopia-alpine:latest
+docker run -v /path/to/storage:/opt/sinopia/storage -d -p 4873:4873 leonardokl/sinopia-docker-alpine:latest
 ```
 
 ## Important files

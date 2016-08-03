@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  sinopia:
+    build: .
+    container_name: sinopia
+    volumes:
+      - ./config.yaml:/opt/sinopia/config.yaml
+      - ./htpasswd:/opt/sinopia/htpasswd
+      - ./storage:/opt/sinopia/storage
+    ports:
+    - "4873:4873"
