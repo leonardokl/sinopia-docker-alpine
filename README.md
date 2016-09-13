@@ -1,5 +1,7 @@
-# Sinopia Alpine (79MB)
+# Sinopia Alpine [![](https://images.microbadger.com/badges/image/leonardokl/sinopia-docker-alpine.svg)](https://microbadger.com/images/leonardokl/sinopia-docker-alpine "Get your own image badge on microbadger.com")
+
 Minimal Sinopia built on Alpine Linux
+
 
 ## Creating a volume to storage
 ```
